@@ -11,6 +11,7 @@ Team Profile Generator
 # Images
 
 ![index](https://user-images.githubusercontent.com/77468756/115313541-160b9e00-a139-11eb-9006-d0fb03542a7a.png)
+![index2](https://user-images.githubusercontent.com/77468756/115314940-d85c4480-a13b-11eb-9b30-1f68647d63a0.png)
 ![terminal](https://user-images.githubusercontent.com/77468756/115313545-186df800-a139-11eb-8e87-1e8daeb8834b.png)
 
 
