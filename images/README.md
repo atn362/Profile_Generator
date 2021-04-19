@@ -20,7 +20,7 @@ This application utilizing node, js, inquirer, npm programs and jest as a tester
 * [Questions](#questions)
 
 # Installation
-What is needed to install this application? npm jest and inquirer were both used as well as the node modules, package and package-lock files both rendered after the inital npm install and init ran.
+What is needed to install this application? npm jest and inquirer were both used as well as the node modules, package and package-lock files both rendered after the initial npm install and init ran.
 
 # Usage
 In order to use this app, run the app in the: This application was utilized in my bash terminal which prompted the questions.  Once data was collected, it was written to an html file stylized with bootstrap.
