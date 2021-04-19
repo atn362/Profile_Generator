@@ -4,6 +4,12 @@
 
 Team Profile Generator
 
+# Images
+
+![index](https://user-images.githubusercontent.com/77468756/115313541-160b9e00-a139-11eb-9006-d0fb03542a7a.png)
+![terminal](https://user-images.githubusercontent.com/77468756/115313545-186df800-a139-11eb-8e87-1e8daeb8834b.png)
+
+
 
 
 # Description
@@ -12,6 +18,7 @@ This application utilizing node, js, inquirer, npm programs and jest as a tester
 
 # Table of Contents 
 * [Title](#title)
+* [Images](#images)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
