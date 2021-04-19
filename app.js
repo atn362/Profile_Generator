@@ -79,13 +79,6 @@ function addMember() {
     });
 }
 
-// function renderHtml(memberArray) {
-//     startHtml();
-//     for (const member of memberArray) {
-//         addHtml(member);
-//     }
-//     finishHtml();
-// }
 
 function startHtml() {
     const html = `<!DOCTYPE html>
@@ -156,7 +149,7 @@ function addHtml(member) {
         </div>`
         }
         console.log("adding team member");
-        fs.appendFile("./output/team.html", data, function (err) {
+        fs.appendFile("./output/profiles.html", data, function (err) {
             if (err) {
                 return reject(err);
             };
@@ -178,7 +171,7 @@ function finishHtml() {
 </body>
 </html>`;
 
-    fs.appendFile("./output/team.html", html, function (err) {
+    fs.appendFile("./output/profiles.html", html, function (err) {
         if (err) {
             console.log(err);
         };
@@ -186,10 +179,4 @@ function finishHtml() {
     console.log("end");
 }
 
-// addMember();
-// startHtml();
-// addHtml("hi")
-// .then(function() {
-// finishHtml();
-// });
 initApp();
