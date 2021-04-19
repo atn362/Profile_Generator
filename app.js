@@ -96,7 +96,7 @@ function startHtml() {
         </nav>
         <div class="container">
             <div class="row">`;
-    fs.writeFile("./output/team.html", html, function(err) {
+    fs.writeFile("./output/index.html", html, function(err) {
         if (err) {
             console.log(err);
         }
@@ -118,8 +118,8 @@ function addHtml(member) {
             <h5 class="card-header">${name}<br /><br />Engineer</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item">Email Address: ${email}</li>
-                <li class="list-group-item">GitHub: ${gitHub}</li>
+                <li class="list-group-item"><a href="mailto:${email}">Email Address: ${email}</a></li>
+                <li class="list-group-item"><a href="https://github.com/${gitHub}">GitHub: ${gitHub}</a></li>
             </ul>
             </div>
         </div>`;
@@ -130,7 +130,7 @@ function addHtml(member) {
             <h5 class="card-header">${name}<br /><br />Intern</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item">Email Address: ${email}</li>
+                <li class="list-group-item"><a href="mailto:${email}">Email Address: ${email}</a></li>
                 <li class="list-group-item">School: ${school}</li>
             </ul>
             </div>
@@ -142,14 +142,14 @@ function addHtml(member) {
             <h5 class="card-header">${name}<br /><br />Manager</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item">Email Address: ${email}</li>
-                <li class="list-group-item">Office Phone: ${officePhone}</li>
+                <li class="list-group-item"><a href="mailto:${email}">Email Address: ${email}</a></li>
+                <li class="list-group-item"><a href="tel:${officePhone}">Office Phone: ${officePhone}</a></li>
             </ul>
             </div>
         </div>`
         }
         console.log("adding team member");
-        fs.appendFile("./output/team.html", data, function (err) {
+        fs.appendFile("./output/index.html", data, function (err) {
             if (err) {
                 return reject(err);
             };
@@ -171,7 +171,7 @@ function finishHtml() {
 </body>
 </html>`;
 
-    fs.appendFile("./output/team.html", html, function (err) {
+    fs.appendFile("./output/index.html", html, function (err) {
         if (err) {
             console.log(err);
         };
