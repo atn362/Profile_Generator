@@ -96,7 +96,7 @@ function startHtml() {
         </nav>
         <div class="container">
             <div class="row">`;
-    fs.writeFile("./output/index.html", html, function(err) {
+    fs.writeFile("./index.html", html, function(err) {
         if (err) {
             console.log(err);
         }
@@ -149,7 +149,7 @@ function addHtml(member) {
         </div>`
         }
         console.log("adding team member");
-        fs.appendFile("./output/index.html", data, function (err) {
+        fs.appendFile("./index.html", data, function (err) {
             if (err) {
                 return reject(err);
             };
@@ -171,7 +171,7 @@ function finishHtml() {
 </body>
 </html>`;
 
-    fs.appendFile("./output/index.html", html, function (err) {
+    fs.appendFile("./index.html", html, function (err) {
         if (err) {
             console.log(err);
         };
