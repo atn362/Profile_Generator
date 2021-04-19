@@ -7,26 +7,26 @@ describe("Employee", () => {
     });
 
     it("Can set name via constructor arguments", () => {
-        const name = "Alice";
+        const name = "Des";
         const e = new Employee(name);
         expect(e.name).toBe(name);
     });
 
     it("Can set id via constructor argument", () => {
         const testValue = 100;
-        const e = new Employee("Foo", testValue);
+        const e = new Employee("Alex", testValue);
         expect(e.id).toBe(testValue);
     });
 
     it("Can set email via constructor argument", () => {
         const testValue = "test@test.com";
-        const e = new Employee("Foo", 1, testValue);
+        const e = new Employee("Alex", 1, testValue);
         expect(e.email).toBe(testValue);
     });
 
     describe("getName", () => {
         it("Can get name via getName()", () => {
-            const testValue = "Alice";
+            const testValue = "Des";
             const e = new Employee(testValue);
             expect(e.getName()).toBe(testValue);
         });
@@ -35,7 +35,7 @@ describe("Employee", () => {
     describe("getId", () => {
         it("Can get id via getId()", () => {
             const testValue = 100;
-            const e = new Employee("Foo", testValue);
+            const e = new Employee("Alex", testValue);
             expect(e.getId()).toBe(testValue);
         });
     });
@@ -43,7 +43,7 @@ describe("Employee", () => {
     describe("getEmail", () => {
         it("Can get email via getEmail()", () => {
             const testValue = "test@test.com";
-            const e = new Employee("Foo", 1, testValue);
+            const e = new Employee("Alex", 1, testValue);
             expect(e.getEmail()).toBe(testValue);
         });
     });
@@ -51,7 +51,7 @@ describe("Employee", () => {
     describe("getRole", () => {
         it("getRole() should return \"Employee\"", () => {
             const testValue = "Employee";
-            const e = new Employee("Alice", 1, "test@test.com");
+            const e = new Employee("Des", 1, "test@test.com");
             expect(e.getRole()).toBe(testValue);
         });
     });
