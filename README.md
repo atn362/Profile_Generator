@@ -6,6 +6,7 @@ Team Profile Generator
 
 # Video
 
+"https://drive.google.com/file/d/1d0MLz3_jyKCAbP65WE3gm7L8ew7SI7Ju/preview"
 
 
 # Images
