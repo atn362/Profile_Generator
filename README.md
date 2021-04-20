@@ -6,7 +6,11 @@ Team Profile Generator
 
 # Video
 
-"https://drive.google.com/file/d/1d0MLz3_jyKCAbP65WE3gm7L8ew7SI7Ju/preview"
+Youtube Link:
+https://youtu.be/1ET44t4i3GQ
+
+GoogleDrive Link (was having trouble with this one at first, hence the additional youtube link):
+https://drive.google.com/file/d/1d0MLz3_jyKCAbP65WE3gm7L8ew7SI7Ju/preview
 
 
 # Images
